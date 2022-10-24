@@ -1556,5 +1556,34 @@ namespace NLC.Library.Extensions
                 /// <param name="input"></param>
                 /// <returns></returns>
                 public static bool IsCSVDelimiter(this char input) => input == ' ' || input == ',';
+
+        /// <summary>
+        ///     Leading Numeric string
+        /// </summary>
+        /// <param name="input"></param>
+         /// <returns>all the leading characters of the string that are numeric as a string, empty string otherwise. e.g. 
+         /// ".123" will return an empty string, "123.abc45" will return "123"</returns>
+        public static string LeadingNumericString(this string input)
+        {
+            if (input == null || input.Trim() == "")
+            {
+                return string.Empty;
+            }
+
+            string result = "";
+            foreach (char c in input)
+            {
+                if (IsNumericCharacter(c))
+                {
+                    result += c;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            return result;
+
+        }
             }
     }
