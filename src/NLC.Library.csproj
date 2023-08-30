@@ -59,8 +59,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="libphonenumber-csharp" Version="8.12.15" />
-        <PackageReference Include="ServiceStack.Text" Version="5.10.4" />
+        <PackageReference Include="libphonenumber-csharp" Version="8.13.19" />
     </ItemGroup>
 
 </Project>
