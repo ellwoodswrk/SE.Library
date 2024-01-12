@@ -2114,5 +2114,76 @@ namespace NLC.Library.Tests.Extensions
 
                         Assert.That(actual, Is.EqualTo(expected));
                     }
-            }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputIsNull_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = null;
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputIsEmpty_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = "";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasLeadingNumericCharacters_ReturnsLeadingNumericString()
+        {
+            // Arrange
+            string input = "123.abc45";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual("123", result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasLeadingNumericCharactersNoSeperator_ReturnsLeadingNumericString()
+        {
+            // Arrange
+            string input = "123a0bc45";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual("123", result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasNoLeadingNumericCharacters_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = ".123";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
     }
+}
+    
