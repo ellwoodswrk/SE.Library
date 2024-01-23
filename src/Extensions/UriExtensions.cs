@@ -16,7 +16,7 @@
 using System;
 using System.Linq;
 
-namespace NLC.Library.Extensions
+namespace LGov.Library.Extensions
     {
         /// <summary>
         ///     Extensions to Uri

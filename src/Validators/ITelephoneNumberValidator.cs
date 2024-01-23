@@ -13,7 +13,7 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace NLC.Library.Validators
+namespace LGov.Library.Validators
     {
         /// <summary>
         ///     TelephoneNumber Validator Interface

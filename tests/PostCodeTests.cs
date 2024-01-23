@@ -14,11 +14,11 @@
 //  --------------------------------------------------------------------------------------------------------------------
 
 using Moq;
-using NLC.Library.Extensions;
-using NLC.Library.Extensions.NationalGovernment.eGIF;
+using LGov.Library.Extensions;
+using LGov.Library.Extensions.NationalGovernment.eGIF;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests
+namespace LGov.Library.Tests
     {
         [TestFixture]
         public class PostCodeTests

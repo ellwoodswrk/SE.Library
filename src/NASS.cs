@@ -1,22 +1,22 @@
 //  --------------------------------------------------------------------------------------------------------------------
 //  <copyright file=NASS.cs company="North Lincolnshire Council">
-//  Solution : -  NLC.Library
+//  Solution : -  Library
 // 
 //  </copyright>
 //  <summary>
 // 
-//  Created - 17/03/2021 17:48
-//  Altered - 25/04/2022 12:16 - Stephen Ellwood
+//  Created - 03/07/2020 17:11
+//  Altered - 06/07/2020 12:41 - Stephen Ellwood
 // 
-//  Project : - NLC.Library
+//  Project : - Library
 // 
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Extensions.NationalGovernment.eGIF;
 using System;
+using LGov.Library.Extensions.NationalGovernment.eGIF;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary>
         ///     National Asylum seekers number

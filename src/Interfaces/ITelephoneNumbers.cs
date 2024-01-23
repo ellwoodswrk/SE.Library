@@ -15,7 +15,7 @@
 
 using System.Collections.Generic;
 
-namespace NLC.Library.Interfaces
+namespace LGov.Library.Interfaces
     {
         /// <summary>
         ///     The TelephoneNumbers interface.

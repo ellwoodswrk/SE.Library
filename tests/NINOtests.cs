@@ -15,7 +15,7 @@
 
 using NUnit.Framework;
 
-namespace NLC.Library.Tests
+namespace LGov.Library.Tests
     {
         [TestFixture]
         [Category("LIBRARY")]

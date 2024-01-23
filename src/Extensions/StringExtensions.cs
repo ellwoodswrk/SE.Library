@@ -21,7 +21,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace NLC.Library.Extensions
+namespace LGov.Library.Extensions
     {
         /// <summary> Extensions to String </summary>
         /// <remarks>Extensions to the inbuilt string object</remarks>

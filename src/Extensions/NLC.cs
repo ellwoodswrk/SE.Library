@@ -16,7 +16,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace NLC.Library.Extensions
+namespace LGov.Library.Extensions
     {
         /// <summary>
         ///     Generic Objects

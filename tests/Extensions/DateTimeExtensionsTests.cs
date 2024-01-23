@@ -15,10 +15,10 @@
 
 using System;
 using System.Globalization;
-using NLC.Library.Extensions;
+using LGov.Library.Extensions;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests.Extensions
+namespace LGov.Library.Tests.Extensions
     {
         [TestFixture]
         [Category("Date")]

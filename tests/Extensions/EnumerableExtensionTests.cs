@@ -16,10 +16,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using NLC.Library.Extensions;
+using LGov.Library.Extensions;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests.Extensions
+namespace LGov.Library.Tests.Extensions
     {
         [TestFixture]
         public class EnumerableExtensionTests

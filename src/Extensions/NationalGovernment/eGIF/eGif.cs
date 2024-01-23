@@ -17,7 +17,7 @@ using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace NLC.Library.Extensions.NationalGovernment.eGIF
+namespace LGov.Library.Extensions.NationalGovernment.eGIF
     {
         /// <summary>
         ///     Government Data Standards

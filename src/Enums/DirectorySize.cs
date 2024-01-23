@@ -13,7 +13,7 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace NLC.Library.Enums
+namespace LGov.Library.Enums
     {
         /// <summary>
         ///     The scale to use for the size of the file

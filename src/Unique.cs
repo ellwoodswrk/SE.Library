@@ -16,7 +16,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary> Generate a pseudo unique value </summary>
         /// <returns>a string containing a semi unique value up to the maximum characters specified</returns>

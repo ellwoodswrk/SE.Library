@@ -5,20 +5,20 @@
 //  </copyright>
 //  <summary>
 // 
-//  Created - 17/03/2021 17:48
-//  Altered - 25/04/2022 12:16 - Stephen Ellwood
+//  Created - 13/10/2020 16:36
+//  Altered - 19/10/2020 09:45 - Stephen Ellwood
 // 
 //  Project : - NLC.Library
 // 
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Extensions;
-using NLC.Library.Extensions.NationalGovernment.eGIF;
-using NLC.Library.Interfaces;
 using System.Globalization;
+using LGov.Library.Extensions;
+using LGov.Library.Extensions.NationalGovernment.eGIF;
+using LGov.Library.Interfaces;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary>
         ///     Post Code
@@ -33,15 +33,10 @@ namespace NLC.Library
                 private string _value;
 
                 /// <summary>
-                ///     Initialises a new instance of the <see cref="PostCode" /> class.
+                ///     Initializes a new instance of the <see cref="PostCode" /> class.
                 /// </summary>
                 public PostCode() => _value = string.Empty;
 
-                /// <summary>
-                ///     Initialises a new instance of the <see cref="PostCode" /> class.
-                /// </summary>
-                /// <param name="outward"></param>
-                /// <param name="inward"></param>
                 public PostCode(string outward, string inward)
                     {
                         Outward = outward;
@@ -51,7 +46,7 @@ namespace NLC.Library
                     }
 
                 /// <summary>
-                ///     Initialises a new instance of the <see cref="PostCode" /> class.
+                ///     Initializes a new instance of the <see cref="PostCode" /> class.
                 /// </summary>
                 /// <param name="postcode">The postcode.</param>
                 public PostCode(string postcode) => SetPostCode(postcode == null ? "" : postcode.Trim());

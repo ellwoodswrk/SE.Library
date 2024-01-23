@@ -13,7 +13,7 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace NLC.Library.Enums
+namespace LGov.Library.Enums
     {
         /// <summary>
         ///     The telephone use type.

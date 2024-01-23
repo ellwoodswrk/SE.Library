@@ -13,9 +13,9 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 
-namespace NLC.Library.Validators
+namespace LGov.Library.Validators
     {
         /// <summary>
         /// </summary>

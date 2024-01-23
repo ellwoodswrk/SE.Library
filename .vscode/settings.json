@@ -12,5 +12,10 @@
         "statusBarItem.remoteBackground": "#43d23f",
         "statusBarItem.remoteForeground": "#15202b"
     },
-    "peacock.color": "#43d23f"
+    "peacock.color": "#43d23f",
+    "cSpell.words": [
+        "NASS",
+        "UPRN",
+        "USRN"
+    ]
 }

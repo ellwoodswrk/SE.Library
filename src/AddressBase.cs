@@ -13,10 +13,10 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Extensions;
-using NLC.Library.Interfaces;
+using LGov.Library.Extensions;
+using LGov.Library.Interfaces;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary>
         ///     Address base class

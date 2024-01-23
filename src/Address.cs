@@ -13,9 +13,9 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary>
         ///     Full Address

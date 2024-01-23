@@ -13,7 +13,7 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary>
         ///     Constants library

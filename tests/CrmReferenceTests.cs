@@ -16,7 +16,7 @@
 using Moq;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests
+namespace LGov.Library.Tests
     {
         [TestFixture]
         public class CrmReferenceTests
