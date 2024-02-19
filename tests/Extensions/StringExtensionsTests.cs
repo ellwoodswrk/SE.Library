@@ -2042,5 +2042,193 @@ namespace LGov.Library.Tests.Extensions
                         Assert.That(actual,
                             Is.EqualTo(expected));
                     }
-            }
+
+
+                [Test]
+                [Category("LTrimCSV")]
+                public void LTrimRemovesCommas()
+                    {
+                        var input = " ,Some test text, ";
+                        var expected = "Some test text, ";
+
+
+                        var actual = input.LTrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+                [Test]
+                [Category("LTrimCSV")]
+                [Sequential]
+                public void LTrimRemovesCommasVarious([Values("", "    ", ",,,,", ", ,,,  ,")] string input)
+                    {
+                        var expected = "";
+
+                        var actual = input.LTrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+                [Test]
+                [Category("LTrimCSV")]
+                [Sequential]
+                public void LTrimRemovesCommasVariousWithText(
+                    [Values("Some text", "    Some text", ",,,, Some text", ", ,,,  ,Some text")]
+                    string input)
+                    {
+                        var expected = "Some text";
+
+                        var actual = input.LTrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+
+                [Test]
+                [Category("RTrimCSV")]
+                public void RTrimRemovesCommas()
+                    {
+                        var input = " ,Some test text, ";
+                        var expected = " ,Some test text";
+
+                        var actual = input.RTrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+                [Test]
+                [Category("RTrimCSV")]
+                [Sequential]
+                public void RTrimRemovesCommasVarious([Values("", "    ", ",,,,", ", ,,,  ,")] string input)
+                    {
+                        var expected = "";
+
+                        var actual = input.RTrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+                [Test]
+                [Category("RTrimCSV")]
+                [Sequential]
+                public void RTrimRemovesCommasVariousWithText(
+                    [Values("Some text", "Some text    ", "Some text,,,, ", "Some text, ,,,  ,")]
+                    string input)
+                    {
+                        var expected = "Some text";
+
+                        var actual = input.RTrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+                [Test]
+                [Category("TrimCSV")]
+                public void TrimRemovesCommas()
+                    {
+                        var input = " ,Some test text, ";
+                        var expected = "Some test text";
+
+                        var actual = input.TrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+                [Test]
+                [Category("TrimCSV")]
+                [Sequential]
+                public void TrimRemovesCommasVarious([Values("", "    ", ",,,,", ", ,,,  ,")] string input)
+                    {
+                        var expected = "";
+
+                        var actual = input.TrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+                [Test]
+                [Category("TrimCSV")]
+                [Sequential]
+                public void TrimRemovesCommasVariousWithText(
+                    [Values("Some text", ",,,   Some text    ", ",,,,Some text,,,, ", ", , , , Some text, ,,,  ,")]
+                    string input)
+                    {
+                        var expected = "Some text";
+
+                        var actual = input.TrimCSV();
+
+                        Assert.That(actual, Is.EqualTo(expected));
+                    }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputIsNull_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = null;
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputIsEmpty_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = "";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasLeadingNumericCharacters_ReturnsLeadingNumericString()
+        {
+            // Arrange
+            string input = "123.abc45";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual("123", result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasLeadingNumericCharactersNoSeperator_ReturnsLeadingNumericString()
+        {
+            // Arrange
+            string input = "123a0bc45";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual("123", result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasNoLeadingNumericCharacters_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = ".123";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
     }
+}
+    
