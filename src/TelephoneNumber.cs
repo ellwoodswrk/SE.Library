@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=TelephoneNumber.cs company="North Lincolnshire Council">
+//  <copyright file=TelephoneNumber.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -13,11 +13,11 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 using PhoneNumbers;
 using System;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         // this encapsulates the telephone number as defined in 
         // http://umbr4.cabinetoffice.gov.uk/govtalk/schemasstandards/e-gif/datastandards/contact_information/uk_telephone_number.aspx

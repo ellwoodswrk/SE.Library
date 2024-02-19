@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=UriExtensionsTests.cs company="North Lincolnshire Council">
+//  <copyright file=UriExtensionsTests.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -14,10 +14,10 @@
 //  --------------------------------------------------------------------------------------------------------------------
 
 using System;
-using NLC.Library.Extensions;
+using LGov.Library.Extensions;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests.Extensions
+namespace LGov.Library.Tests.Extensions
     {
         public class UriExtensionsTests
             {

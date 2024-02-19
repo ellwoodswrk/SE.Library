@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=EnumerableExtension.cs company="North Lincolnshire Council">
+//  <copyright file=EnumerableExtension.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -17,7 +17,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NLC.Library.Extensions
+namespace LGov.Library.Extensions
     {
         /// <summary>
         ///     Enumerable extensions

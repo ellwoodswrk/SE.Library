@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=GovernmentDataTests.cs company="North Lincolnshire Council">
+//  <copyright file=GovernmentDataTests.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -13,10 +13,10 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Extensions.NationalGovernment.eGIF;
+using LGov.Library.Extensions.NationalGovernment.eGIF;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests.Extensions
+namespace LGov.Library.Tests.Extensions
     {
         [TestFixture]
         [Category("NLC.Library")]

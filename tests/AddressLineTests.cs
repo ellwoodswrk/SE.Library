@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=AddressLineTests.cs company="North Lincolnshire Council">
+//  <copyright file=AddressLineTests.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -14,10 +14,10 @@
 //  --------------------------------------------------------------------------------------------------------------------
 
 using Moq;
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests
+namespace LGov.Library.Tests
     {
         [TestFixture]
         public class AddressLineTests

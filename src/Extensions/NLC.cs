@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=NLC.cs company="North Lincolnshire Council">
+//  <copyright file=NLC.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -16,7 +16,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace NLC.Library.Extensions
+namespace LGov.Library.Extensions
     {
         /// <summary>
         ///     Generic Objects

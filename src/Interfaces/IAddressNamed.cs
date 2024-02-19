@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=IAddressNamed.cs company="North Lincolnshire Council">
+//  <copyright file=IAddressNamed.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -13,7 +13,7 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace NLC.Library.Interfaces
+namespace LGov.Library.Interfaces
     {
         /// <summary>
         ///     Address with named fields

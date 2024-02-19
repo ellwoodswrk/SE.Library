@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=DirectorySize.cs company="North Lincolnshire Council">
+//  <copyright file=DirectorySize.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -13,7 +13,7 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace NLC.Library.Enums
+namespace LGov.Library.Enums
     {
         /// <summary>
         ///     The scale to use for the size of the file

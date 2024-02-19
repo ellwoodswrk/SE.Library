@@ -1,25 +1,25 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=StringExtensionsTests.cs company="North Lincolnshire Council">
-//  Solution : -  NLC.Library
+//  <copyright file=StringExtensionsTests.cs company="">
+//  Solution : -  Library
 // 
 //  </copyright>
 //  <summary>
 // 
-//  Created - 13/10/2020 16:37
-//  Altered - 19/04/2022 11:56 - Stephen Ellwood
+//  Created - 08/07/2020 10:59
+//  Altered - 06/07/2020 12:53 - Stephen Ellwood
 // 
-//  Project : - NLC.Library.Tests
+//  Project : - Library.tests
 // 
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Extensions;
-using NUnit.Framework;
 using System;
 using System.Linq;
 using System.Net;
+using LGov.Library.Extensions;
+using NUnit.Framework;
 
-namespace NLC.Library.Tests.Extensions
+namespace LGov.Library.Tests.Extensions
     {
         /// <summary>
         /// </summary>
@@ -36,6 +36,8 @@ namespace NLC.Library.Tests.Extensions
                         " f")]
                     string input)
                     {
+                     
+
                         var actual = input.BooleanValue();
 
                         Assert.That(actual,
@@ -71,6 +73,8 @@ namespace NLC.Library.Tests.Extensions
                         " TrUe")]
                     string input)
                     {
+                      
+
                         var actual = input.BooleanValue();
 
                         Assert.That(actual,
@@ -135,6 +139,7 @@ namespace NLC.Library.Tests.Extensions
                         "a")]
                     string input)
                     {
+                     
                         var actual = input.IsAlphabeticCharacter();
 
                         Assert.That(actual,
@@ -145,6 +150,7 @@ namespace NLC.Library.Tests.Extensions
                 [Category("IsNumericCharacter")]
                 public void EmptyIsNumericCharactersIsFalse()
                     {
+                     
                         var input = string.Empty;
 
                         var actual = input.IsNumericCharacters();
@@ -278,6 +284,7 @@ namespace NLC.Library.Tests.Extensions
                         '\u0133')]
                     char cinput)
                     {
+                       
                         var input = sInput + cinput;
 
                         var actual = input.IsAllWhitespace();
@@ -303,6 +310,8 @@ namespace NLC.Library.Tests.Extensions
                         '\u0133')]
                     char cinput)
                     {
+                     
+
                         var input = sinput + cinput;
 
                         var actual = input.IsAllWhitespace();
@@ -326,6 +335,8 @@ namespace NLC.Library.Tests.Extensions
                         "hi it's me")]
                     string input)
                     {
+                        
+
                         var actual = input.IsAlphabeticCharacter();
 
                         Assert.That(actual,
@@ -342,6 +353,8 @@ namespace NLC.Library.Tests.Extensions
                         "hi it's me")]
                     string input)
                     {
+                     
+
                         var actual = input.IsAlphabetic();
 
                         Assert.That(actual,
@@ -359,6 +372,7 @@ namespace NLC.Library.Tests.Extensions
                         "TrUe")]
                     string input)
                     {
+                      
                         var actual = input.IsAlphabetic();
 
                         Assert.That(actual,
@@ -377,6 +391,8 @@ namespace NLC.Library.Tests.Extensions
                         "1e")]
                     string input)
                     {
+                       
+
                         var actual = input.IsAlphaNumericCharacter();
 
                         Assert.That(actual,
@@ -395,6 +411,8 @@ namespace NLC.Library.Tests.Extensions
                         "e")]
                     string input)
                     {
+                   
+
                         var actual = input.IsAlphaNumericCharacter();
 
                         Assert.That(actual,
@@ -412,6 +430,8 @@ namespace NLC.Library.Tests.Extensions
                         "2^3")]
                     string input)
                     {
+                       
+
                         var actual = input.IsAlphaNumeric();
 
                         Assert.That(actual,
@@ -431,6 +451,8 @@ namespace NLC.Library.Tests.Extensions
                         "2e3")]
                     string input)
                     {
+                        
+
                         var actual = input.IsAlphaNumeric();
 
                         Assert.That(actual,
@@ -441,8 +463,11 @@ namespace NLC.Library.Tests.Extensions
                 [Test]
                 [Sequential]
                 [Category("Unicode")]
-                public void IsHtmlUnicode_ExpectedTrue([Values("&AElig;", "&Ucirc;", "&#330;")] string input)
+                public void IsHtmlUnicode_ExpectedTrue([Values("&AElig;", "&Ucirc;", "&#330;")]
+                    string input)
                     {
+                        
+
                         var actual = WebUtility.HtmlDecode(input).IsUnicode();
 
                         Assert.That(actual, Is.Not.Null);
@@ -516,6 +541,8 @@ namespace NLC.Library.Tests.Extensions
                         "-3147483647")]
                     string input)
                     {
+                      
+
                         var actual = input.IsLong();
 
                         Assert.That(actual,
@@ -536,6 +563,8 @@ namespace NLC.Library.Tests.Extensions
                         "1e")]
                     string input)
                     {
+                       
+
                         var actual = input.IsNumericCharacter();
 
                         Assert.That(actual,
@@ -550,6 +579,8 @@ namespace NLC.Library.Tests.Extensions
                         "9")]
                     string input)
                     {
+                
+
                         var actual = input.IsNumericCharacter();
 
                         Assert.That(actual,
@@ -564,6 +595,8 @@ namespace NLC.Library.Tests.Extensions
                         "67890")]
                     string input)
                     {
+                    
+
                         var actual = input.IsNumericCharacters();
 
                         Assert.That(actual,
@@ -584,6 +617,8 @@ namespace NLC.Library.Tests.Extensions
                         "1e")]
                     string input)
                     {
+                       
+
                         var actual = input.IsNumeric();
 
                         Assert.That(actual,
@@ -603,6 +638,8 @@ namespace NLC.Library.Tests.Extensions
                         "2e4")]
                     string input)
                     {
+                 
+
                         var actual = input.IsNumeric();
 
                         Assert.That(actual,
@@ -615,6 +652,8 @@ namespace NLC.Library.Tests.Extensions
                 [Category("Unicode")]
                 public void IsUnicode_ExpectedFalse([Values(" ", "1", "Z", "z0\n")] string input)
                     {
+                        
+
                         var actual = input.IsUnicode();
 
                         Assert.That(actual, Is.Not.Null);
@@ -627,6 +666,7 @@ namespace NLC.Library.Tests.Extensions
                 [Category("Unicode")]
                 public void IsUnicode_ExpectedTrue([Values('\u0b85', '\u0b86', '\u0080')] char input)
                     {
+                       
                         var actual = input.IsUnicode();
 
                         Assert.That(actual, Is.Not.Null);
@@ -674,6 +714,8 @@ namespace NLC.Library.Tests.Extensions
                         '\x88')]
                     char input)
                     {
+                      
+
                         var actual = input.IsWhitespace();
 
                         Assert.That(actual,
@@ -692,6 +734,8 @@ namespace NLC.Library.Tests.Extensions
                         '\x08', '\n', '\r', '\t')]
                     char input)
                     {
+
+
                         var actual = input.IsWhitespace();
 
                         Assert.That(actual,
@@ -1920,6 +1964,7 @@ namespace NLC.Library.Tests.Extensions
                         Assert.That(actual.Contains(newline),
                             Is.True);
                         Assert.That(actual.InStr("<root/>" + newline),
+
                             Is.EqualTo(0));
                     }
 
@@ -1938,7 +1983,7 @@ namespace NLC.Library.Tests.Extensions
                     {
                         var expected = count;
 
-                        var seperator = new[] { ' ' };
+                        var seperator = new[] {' '};
 
                         var actual = input.WordCount(seperator);
 
@@ -1989,7 +2034,7 @@ namespace NLC.Library.Tests.Extensions
                     {
                         var expected = count;
 
-                        var seperator = new[] { '-' };
+                        var seperator = new[] {'-'};
                         var actual = input.WordCount(seperator);
 
                         Assert.That(actual,
@@ -2114,5 +2159,76 @@ namespace NLC.Library.Tests.Extensions
 
                         Assert.That(actual, Is.EqualTo(expected));
                     }
-            }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputIsNull_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = null;
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputIsEmpty_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = "";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasLeadingNumericCharacters_ReturnsLeadingNumericString()
+        {
+            // Arrange
+            string input = "123.abc45";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual("123", result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasLeadingNumericCharactersNoSeperator_ReturnsLeadingNumericString()
+        {
+            // Arrange
+            string input = "123a0bc45";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual("123", result);
+        }
+
+        [Test]
+        [Category("LeadingNumber")]
+        public void LeadingNumericString_InputHasNoLeadingNumericCharacters_ReturnsEmptyString()
+        {
+            // Arrange
+            string input = ".123";
+
+            // Act
+            string result = StringExtensions.LeadingNumericString(input);
+
+            // Assert
+            Assert.AreEqual(string.Empty, result);
+        }
     }
+}
+    

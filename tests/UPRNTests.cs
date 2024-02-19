@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=UPRNTests.cs company="North Lincolnshire Council">
+//  <copyright file=UPRNTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>
@@ -13,10 +13,10 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests
+namespace LGov.Library.Tests
     {
         /* Series of tests to check the functionality of UPRN works as it should be, analysing the behaviour and ensuring it's working
     * as it should be. */

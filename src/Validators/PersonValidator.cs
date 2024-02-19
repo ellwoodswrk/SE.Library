@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=PersonValidator.cs company="North Lincolnshire Council">
+//  <copyright file=PersonValidator.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -13,9 +13,9 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 
-namespace NLC.Library.Validators
+namespace LGov.Library.Validators
     {
         /// <summary>
         /// </summary>

@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=TelephoneNumbersTests.cs company="North Lincolnshire Council">
+//  <copyright file=TelephoneNumbersTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>
@@ -13,10 +13,10 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 using NUnit.Framework;
 
-namespace NLC.Library.Tests
+namespace LGov.Library.Tests
     {
         [TestFixture]
         public class TelephoneNumbersTests

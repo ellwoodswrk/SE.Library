@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=DateTimeExtensions.cs company="North Lincolnshire Council">
+//  <copyright file=DateTimeExtensions.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -16,7 +16,7 @@
 using System;
 using System.Globalization;
 
-namespace NLC.Library.Extensions
+namespace LGov.Library.Extensions
     {
         /// <summary>
         ///     See if date range is set the right way around.

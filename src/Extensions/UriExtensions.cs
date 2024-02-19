@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=UriExtensions.cs company="North Lincolnshire Council">
+//  <copyright file=UriExtensions.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -16,7 +16,7 @@
 using System;
 using System.Linq;
 
-namespace NLC.Library.Extensions
+namespace LGov.Library.Extensions
     {
         /// <summary>
         ///     Extensions to Uri

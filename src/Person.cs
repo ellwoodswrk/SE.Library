@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=Person.cs company="North Lincolnshire Council">
+//  <copyright file=Person.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -13,9 +13,9 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
+using LGov.Library.Interfaces;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary>
         /// </summary>

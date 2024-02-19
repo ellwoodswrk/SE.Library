@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=PostCodeValidator.cs company="North Lincolnshire Council">
+//  <copyright file=PostCodeValidator.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -13,7 +13,7 @@
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-namespace NLC.Library.Validators
+namespace LGov.Library.Validators
     {
         /// <summary>
         /// </summary>

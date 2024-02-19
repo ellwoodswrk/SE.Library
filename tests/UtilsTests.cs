@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=UtilsTests.cs company="North Lincolnshire Council">
+//  <copyright file=UtilsTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>
@@ -15,7 +15,7 @@
 
 using NUnit.Framework;
 
-namespace NLC.Library.Tests
+namespace LGov.Library.Tests
     {
         [TestFixture]
         public class UtilsTests

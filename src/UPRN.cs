@@ -1,23 +1,23 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=UPRN.cs company="North Lincolnshire Council">
-//  Solution : -  NLC.Library
+//  <copyright file=UPRN.cs company="">
+//  Solution : -  Library
 // 
 //  </copyright>
 //  <summary>
 // 
-//  Created - 17/03/2021 17:48
-//  Altered - 25/04/2022 12:16 - Stephen Ellwood
+//  Created - 03/07/2020 17:11
+//  Altered - 06/07/2020 12:51 - Stephen Ellwood
 // 
-//  Project : - NLC.Library
+//  Project : - Library
 // 
 //  </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using NLC.Library.Interfaces;
 using System;
 using System.Xml.Serialization;
+using LGov.Library.Interfaces;
 
-namespace NLC.Library
+namespace LGov.Library
     {
         /// <summary>
         ///     Unique Property Reference Number
@@ -54,7 +54,7 @@ namespace NLC.Library
                         else
                             {
                                 if (long.TryParse(value.Trim(),
-                                        out var result))
+                                    out var result))
                                     {
                                         UprnValue = result;
                                     }
@@ -190,5 +190,6 @@ namespace NLC.Library
                         return long.TryParse(suprn,
                             out _);
                     }
+
             }
     }

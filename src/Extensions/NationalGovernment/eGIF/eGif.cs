@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=eGif.cs company="North Lincolnshire Council">
+//  <copyright file=eGif.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>
@@ -17,7 +17,7 @@ using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace NLC.Library.Extensions.NationalGovernment.eGIF
+namespace LGov.Library.Extensions.NationalGovernment.eGIF
     {
         /// <summary>
         ///     Government Data Standards
