@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=EnumerableExtensionTests.cs company="North Lincolnshire Council">
+//  <copyright file=EnumerableExtensionTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>

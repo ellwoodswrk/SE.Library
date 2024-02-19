@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=Constants.cs company="North Lincolnshire Council">
+//  <copyright file=Constants.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>

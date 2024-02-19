@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=eGif.cs company="North Lincolnshire Council">
+//  <copyright file=eGif.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>

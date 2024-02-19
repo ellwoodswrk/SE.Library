@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=ConstantsTests.cs company="North Lincolnshire Council">
+//  <copyright file=ConstantsTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>

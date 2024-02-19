@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=IPostCode.cs company="North Lincolnshire Council">
+//  <copyright file=IPostCode.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>

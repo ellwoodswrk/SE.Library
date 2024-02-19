@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=DateTimeExtensionsTests.cs company="North Lincolnshire Council">
+//  <copyright file=DateTimeExtensionsTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>

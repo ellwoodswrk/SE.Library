@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=NASS.cs company="North Lincolnshire Council">
+//  <copyright file=NASS.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>

@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=ITelephoneNumberValidator.cs company="North Lincolnshire Council">
+//  <copyright file=ITelephoneNumberValidator.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>

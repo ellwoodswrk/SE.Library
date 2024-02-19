@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=IPersonValidator.cs company="North Lincolnshire Council">
+//  <copyright file=IPersonValidator.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>

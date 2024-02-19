@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=CrmReferenceTests.cs company="North Lincolnshire Council">
+//  <copyright file=CrmReferenceTests.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>

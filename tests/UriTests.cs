@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=UriTests.cs company="North Lincolnshire Council">
+//  <copyright file=UriTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>

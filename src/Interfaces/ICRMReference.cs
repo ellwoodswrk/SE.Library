@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=ICRMReference.cs company="North Lincolnshire Council">
+//  <copyright file=ICRMReference.cs company="">
 //  Solution : -  NLC.Library
 // 
 //  </copyright>

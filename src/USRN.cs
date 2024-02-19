@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=USRN.cs company="North Lincolnshire Council">
+//  <copyright file=USRN.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>

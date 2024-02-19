@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=BetweenTests.cs company="North Lincolnshire Council">
+//  <copyright file=BetweenTests.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>

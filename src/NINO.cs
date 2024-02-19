@@ -1,5 +1,5 @@
 //  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file=NINO.cs company="North Lincolnshire Council">
+//  <copyright file=NINO.cs company="">
 //  Solution : -  Library
 // 
 //  </copyright>
